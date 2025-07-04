@@ -1,0 +1,12 @@
+/* ensure your entire React tree can grow */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* now this will actually match .leaflet-container */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
