@@ -3,12 +3,10 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
-// --- ESM import of the marker assets (no require)
 import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
 import iconUrl       from 'leaflet/dist/images/marker-icon.png';
 import shadowUrl     from 'leaflet/dist/images/marker-shadow.png';
 
-// --- Only do this once:
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl,
@@ -23,14 +21,14 @@ export default function App() {
     <MapContainer
       center={position}
       zoom={13}
-      style={{ height: '100%', width: '100%' }}  // fill its parent
+      style={{ height: '100%', width: '100%' }} 
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="&copy; OpenStreetMap contributors"
       />
       <Marker position={position}>
-        <Popup>A pretty popup for your starting point.</Popup>
+        <Popup>Starting Point</Popup>
       </Marker>
     </MapContainer>
   );
