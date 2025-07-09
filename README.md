@@ -16,27 +16,30 @@ The demo runs on React + leaflet for the front end and FastAPI for the GeoJSON d
     
     Substations (blue) across the continental U.S., each within 50 miles of an active wildfire boundary (red) and serving ≥ 1,000 people.
     
+<img width="1512" alt="Screenshot 2025-07-08 at 10 31 31 AM" src="https://github.com/user-attachments/assets/7b030244-fc08-4a41-8db2-7238bc4d1346" />
 
-![Screenshot 2025-07-08 at 10.31.31 AM.png](attachment:790d6347-8c01-4111-8ac8-d3b991ada519:Screenshot_2025-07-08_at_10.31.31_AM.png)
 
 2.  **Central California** 
 
 Substations meeting the population threshold positioned near the Carrizo Plain fire perimeter.
 
-![Screenshot 2025-07-08 at 10.32.05 AM.png](attachment:f942168a-1596-40d8-88cd-6c79eb3b4a3c:Screenshot_2025-07-08_at_10.32.05_AM.png)
+<img width="1512" alt="Screenshot 2025-07-08 at 10 32 05 AM" src="https://github.com/user-attachments/assets/f1941bab-dc7e-4d53-a2cd-1cde9ae48ddb" />
 
-1. **Banning–Beaumont Detail**
+
+3. **Banning–Beaumont Detail**
 
 I-10 corridor around Banning, CA: Substations within 50 miles of the nearby fire polygon, filtered for high-impact zones.
 
-![Screenshot 2025-07-08 at 10.32.30 AM.png](attachment:96621aa1-2621-42d8-92b0-d223017fe1e0:Screenshot_2025-07-08_at_10.32.30_AM.png)
+<img width="1512" alt="Screenshot 2025-07-08 at 10 32 30 AM" src="https://github.com/user-attachments/assets/d145cfe7-7755-4f8a-b13f-060b0c6b47d2" />
 
-1. **Everglades & South Florida**
+
+4. **Everglades & South Florida**
     
     Miami to Big Cypress: High-population substations (blue) located within a 50-mile buffer of Everglades wildfire perimeters (red).
     
 
-![Screenshot 2025-07-08 at 10.33.06 AM.png](attachment:9342374a-36fa-4ca1-a25c-bbf06f353649:Screenshot_2025-07-08_at_10.33.06_AM.png)
+<img width="1512" alt="Screenshot 2025-07-08 at 10 33 06 AM" src="https://github.com/user-attachments/assets/9b2d6dbf-dc74-41ff-a62d-e86fe1fe1241" />
+
 
 ## Key Features
 
